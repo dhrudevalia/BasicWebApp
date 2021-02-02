@@ -16,7 +16,7 @@ public class QueryProcessor {
           + "use of music."
           ;
     }
-    else if (query.toLowerCase().equals("what is your name")){
+    else if (query.toLowerCase().contains("what is your name")){
       return "Samuel Liem top boss man";
     }
     return "";
