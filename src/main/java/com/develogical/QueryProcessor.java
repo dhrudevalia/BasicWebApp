@@ -14,8 +14,10 @@ public class QueryProcessor {
           + "novels or short stories, cover a wide range of genres, and are noted for their "
           + "realism,dark humor, unique cinematography, extensive set designs, and evocative "
           + "use of music."
-
           ;
+    }
+    else if (query.toLowerCase().equals("what is your name")){
+      return "Samuel Liem top boss man";
     }
     return "";
   }
